@@ -5,7 +5,7 @@ function LoadEvent(eventObject){
     console.dir(rootElement);
 
     const listOfSectionElements = document.querySelectorAll("section");
-    
+
     console.log(listOfSectionElements);
 
 let anchors = "";
@@ -16,7 +16,7 @@ for (const sectionElement of listOfSectionElements) {
 }
 
     console.log(anchors);
-    rootElement.insertAdjacentHTML("afterbegin",`<header>${anchors}</header>`) //header előjön a weboldalon
+    rootElement.insertAdjacentHTML("afterbegin",`<header>${anchors}</header>`) 
 
 }
 
