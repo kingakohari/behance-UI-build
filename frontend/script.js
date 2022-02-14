@@ -8,15 +8,15 @@ function LoadEvent(eventObject){
 
     console.log(listOfSectionElements);
 
-let anchors = "";
+    let anchors = ``;
 
-for (const sectionElement of listOfSectionElements) {
+    for (const sectionElement of listOfSectionElements) {
 
-    anchors += `<a href="#${sectionElement.id}"> ${sectionElement.id} </a>`;
-}
+        anchors += `<a href="#${sectionElement.id}">˙˙˙˙˙˙˙˙˙˙˙˙˙${sectionElement.id}˙˙˙˙˙˙˙˙˙˙˙˙˙</a>`;
+    }
 
     console.log(anchors);
-    rootElement.insertAdjacentHTML("afterbegin",`<header>${anchors}</header>`) 
+    rootElement.insertAdjacentHTML("afterbegin",`<header>${anchors}</header>`);
 
 }
 
