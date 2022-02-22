@@ -12,7 +12,7 @@ function LoadEvent(eventObject){
 
     for (const sectionElement of listOfSectionElements) {
 
-        anchors += `<a href="#${sectionElement.id}">˙˙˙˙˙˙˙˙˙˙˙˙˙${sectionElement.id}˙˙˙˙˙˙˙˙˙˙˙˙˙</a>`;
+        anchors += `<a href="#${sectionElement.id}">${sectionElement.id}</a>`;
     }
 
     console.log(anchors);
